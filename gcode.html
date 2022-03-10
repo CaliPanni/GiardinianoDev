@@ -1,0 +1,26 @@
+<html>
+    <title>Giardiniano Multi Device Code Redistribuibile</title>
+    <central><h1>Giardiniano Multi Device Code Html And CSS 3.0 Redistribuibile</h1></central>
+    <script>
+         function copia(testo) {
+    var input = document.createElement('input');
+    var area = document.getElementById(testo).value;
+    input.setAttribute('value', area);
+    document.body.appendChild(input);
+    input.select();
+    var risultato = document.execCommand('copy');
+    document.body.removeChild(input);
+    alert('testo copiato: '+ area);
+    return risultato;
+ }
+
+
+
+    </script>
+    <div>
+        <textarea id="area"><!--Giardiniano Multi Device Code--><!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width"><style type="text/css">body,html {background:#fff;font-family:"Bitstream Vera Sans","Lucida Grande","Lucida Sans Unicode",Lucidux,Verdana,Lucida,sans-serif;}tr:nth-child(even) {background:#f4f4f4;}th,td {padding:0.1em 0.5em;}th {text-align:left;font-weight:bold;background:#eee;border-bottom:1px solid #aaa;}#list {border:1px solid #aaa;width:100%;}a {color:#a33;}a:hover {color:#e33;}</style></textarea>
+        <button onclick="copia('area')">copia</button>
+     </div>
+
+
+</html>
